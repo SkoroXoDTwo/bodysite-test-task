@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  padding: 0 165px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main {
+    padding: 0 15px;
+  }
+}

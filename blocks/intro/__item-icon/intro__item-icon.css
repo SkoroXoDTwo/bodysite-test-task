@@ -1,0 +1,6 @@
+.intro__item-icon {
+  width: 75px;
+  height: 50px;
+  object-fit: contain;
+  object-position: center;
+}

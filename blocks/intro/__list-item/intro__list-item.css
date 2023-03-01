@@ -1,0 +1,13 @@
+.intro__list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+  .intro__list-item:nth-child(n+2) {
+    display: none;
+  }
+}

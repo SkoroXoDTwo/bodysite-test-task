@@ -5,3 +5,16 @@
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/page/page.css);
+
+
+/* ----- main ----- */
+@import url(../blocks/main/main.css);
+
+/* ----- intro ----- */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__item-icon/intro__item-icon.css);
+@import url(../blocks/intro/__item-title/intro__item-title.css);
+@import url(../blocks/intro/__item-text/intro__item-text.css);
+@import url(../blocks/intro/__item-description/intro__item-description.css);
