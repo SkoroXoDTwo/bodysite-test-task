@@ -1,0 +1,24 @@
+.catalog__card-title {
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 400;
+  color: #333333;
+  text-transform: capitalize;
+  min-height: 50px;
+  transition: color 0.2s;
+}
+
+@media screen and (max-width: 550px) {
+  .catalog__card-title {
+    text-align: left;
+    min-height: 0;
+    margin: 0 9px 0 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2d9cdb;
+  }
+}

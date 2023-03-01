@@ -1,0 +1,12 @@
+.catalog__card-count-container {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+  .catalog__card-count-container {
+    gap: 15px;
+  }
+}

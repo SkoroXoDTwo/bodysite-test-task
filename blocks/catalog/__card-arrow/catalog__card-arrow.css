@@ -1,0 +1,13 @@
+.catalog__card-arrow {
+  width: 6px;
+  height: 10px;
+  background: url(../../../images/icons/arrow-icon.svg);
+  background-size: contain;
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .catalog__card-arrow {
+    display: block;
+  }
+}

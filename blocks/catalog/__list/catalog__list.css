@@ -1,0 +1,23 @@
+.catalog__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 255px);
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .catalog__list {
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .catalog__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

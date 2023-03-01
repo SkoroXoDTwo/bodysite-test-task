@@ -1,0 +1,16 @@
+.catalog__card-count {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 400px;
+  color: #828282;
+}
+
+@media screen and (max-width: 550px) {
+  .catalog__card-count {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
