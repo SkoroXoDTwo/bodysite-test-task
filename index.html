@@ -26,10 +26,7 @@
               </div>
             </li>
             <li class="intro__list-item">
-              <img
-                class="intro__item-icon"
-                src="./images/icons/pay-icon.svg"
-              />
+              <img class="intro__item-icon" src="./images/icons/pay-icon.svg" />
               <div class="intro__item-description">
                 <h3 class="intro__item-title">On-line оплата на сайте</h3>
                 <p class="intro__item-text">
@@ -53,21 +50,26 @@
         </section>
         <section class="catalog">
           <h1 class="catalog__title">Каталог товаров</h1>
-          <ul class="catalog__list">
-            <li class="catalog__list-item">
-              <article class="catalog__card">
-                <img class="catalog__card-img" src="./images/catalog/catalog-item-1.jpg" />
-                <h3 class="catalog__card-title">компьютеры</h3>
-                <div class="catalog__card-count-container">
-                  <span class="catalog__card-count">393</span>
-                  <p class="catalog__card-text">товара</p>
-                  <div class="catalog__card-arrow"></div>
-                </div>
-              </article>
-            </li>
-          </ul>
+          <ul class="catalog__list"></ul>
         </section>
       </main>
     </div>
+
+    <template id="catalog-card-item-template">
+      <li class="catalog__list-item">
+        <article class="catalog__card">
+          <img
+            class="catalog__card-img"
+            src="./images/catalog/catalog-item-1.jpg"
+          />
+          <h3 class="catalog__card-title">компьютеры</h3>
+          <div class="catalog__card-count-container">
+            <span class="catalog__card-count">393</span>
+            <p class="catalog__card-text">товара</p>
+            <div class="catalog__card-arrow"></div>
+          </div>
+        </article>
+      </li>
+    </template>
   </body>
 </html>
