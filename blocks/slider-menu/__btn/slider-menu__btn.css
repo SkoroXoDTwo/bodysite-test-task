@@ -1,0 +1,17 @@
+.slider-menu__btn {
+  width: 30px;
+  height: 30px;
+  background: #eeeeee;
+  border-radius: 3px;
+  border: none;
+  background-image: url(../../../images/icons/arrow-grey-icon.svg);
+  background-position: center;
+  background-size: 6px 10px;
+  background-repeat: no-repeat;
+  transition: opacity 0.2s;
+}
+
+.slider-menu__btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

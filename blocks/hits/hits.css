@@ -1,0 +1,5 @@
+.hits {
+  padding: 40px 0 60px;
+  display: flex;
+  flex-direction: column;
+}

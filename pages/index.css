@@ -24,6 +24,7 @@
 @import url(../blocks/catalog/__title/catalog__title.css);
 @import url(../blocks/catalog/__list/catalog__list.css);
 @import url(../blocks/catalog/__list-item/catalog__list-item.css);
+@import url(../blocks/catalog/__list-item-link/catalog__list-item-link.css);
 @import url(../blocks/catalog/__card/catalog__card.css);
 @import url(../blocks/catalog/__card-title/catalog__card-title.css);
 @import url(../blocks/catalog/__card-text/catalog__card-text.css);
@@ -31,3 +32,14 @@
 @import url(../blocks/catalog/__card-count/catalog__card-count.css);
 @import url(../blocks/catalog/__card-count-container/catalog__card-count-container.css);
 @import url(../blocks/catalog/__card-arrow/catalog__card-arrow.css);
+
+/* ----- hits ----- */
+@import url(../blocks/hits/hits.css);
+@import url(../blocks/hits/__header/hits__header.css);
+@import url(../blocks/hits/__title/hits__title.css);
+@import url(../blocks/hits/__list/hits__list.css);
+
+/* ----- slider-menu ----- */
+@import url(../blocks/slider-menu/slider-menu.css);
+@import url(../blocks/slider-menu/__btn/slider-menu__btn.css);
+@import url(../blocks/slider-menu/__btn/_type/slider-menu__btn_type_next.css);

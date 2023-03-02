@@ -52,23 +52,53 @@
           <h1 class="catalog__title">Каталог товаров</h1>
           <ul class="catalog__list"></ul>
         </section>
+
+        <section class="hits">
+          <div class="hits__header">
+            <h2 class="hits__title">Хиты продаж</h2>
+            <div class="slider-menu">
+              <button
+                class="slider-menu__btn"
+                id="catalog-slider-btn-previous"
+              ></button>
+              <button
+                class="slider-menu__btn slider-menu__btn_type_next"
+                id="catalog-slider-btn-previous"
+              ></button>
+            </div>
+          </div>
+
+          <ul class="hits__list">
+            <li class="product-card">
+              <a class="product-card__link">
+                <article class="product-card__container">
+                  <button class="product-card__img-container">
+                    <img class="product-card__img" src="./images/products/product-1.jpg"/>
+                    <span class="product-card__label">hit</span>
+                    <div class="product-card__loupe-icon"></div>
+                    <div class="product-card__expand-icon"></div>
+                  </button>
+                </article>
+              </a>
+            </li>
+          </ul>
+        </section>
       </main>
     </div>
 
     <template id="catalog-card-item-template">
       <li class="catalog__list-item">
-        <article class="catalog__card">
-          <img
-            class="catalog__card-img"
-            src="./images/catalog/catalog-item-1.jpg"
-          />
-          <h3 class="catalog__card-title">компьютеры</h3>
-          <div class="catalog__card-count-container">
-            <span class="catalog__card-count">393</span>
-            <p class="catalog__card-text">товара</p>
-            <div class="catalog__card-arrow"></div>
-          </div>
-        </article>
+        <a class="catalog__list-item-link" href="">
+          <article class="catalog__card">
+            <img class="catalog__card-img" src="" alt="" />
+            <h3 class="catalog__card-title"></h3>
+            <div class="catalog__card-count-container">
+              <span class="catalog__card-count"></span>
+              <p class="catalog__card-text">товаров</p>
+              <div class="catalog__card-arrow"></div>
+            </div>
+          </article>
+        </a>
       </li>
     </template>
   </body>
