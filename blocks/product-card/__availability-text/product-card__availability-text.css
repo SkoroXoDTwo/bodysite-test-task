@@ -1,0 +1,9 @@
+.product-card__availability-text {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #27ae60;
+}

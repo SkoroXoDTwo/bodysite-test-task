@@ -1,0 +1,24 @@
+.product-card__buy-btn {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #f2f2f2;
+  background: none;
+  padding: 15px 0 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #2d9cdb;
+  transition: opacity 0.2s;
+  display: none;
+}
+
+.product-card__buy-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 550px) {
+  .product-card__buy-btn {
+    display: block;
+  }
+}

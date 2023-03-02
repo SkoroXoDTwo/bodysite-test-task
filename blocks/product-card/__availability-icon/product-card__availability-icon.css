@@ -1,0 +1,15 @@
+.product-card__availability-icon {
+  width: 14px;
+  height: 14px;
+  background: url(../../../images/icons/availability-true-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .product-card__availability-icon {
+    display: block;
+  }
+}

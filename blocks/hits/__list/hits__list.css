@@ -7,3 +7,17 @@
   justify-content: space-between;
   gap: 16px;
 }
+
+@media screen and (max-width: 768px) {
+  .hits__list {
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .hits__list {
+    grid-template-columns: minmax(255px, 345px);
+    grid-template-rows: auto;
+  }
+}

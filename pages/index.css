@@ -6,7 +6,6 @@
 
 @import url(../blocks/page/page.css);
 
-
 /* ----- main ----- */
 @import url(../blocks/main/main.css);
 
@@ -53,6 +52,7 @@
 @import url(../blocks/product-card/__label/product-card__label.css);
 @import url(../blocks/product-card/__loupe-icon/product-card__loupe-icon.css);
 @import url(../blocks/product-card/__expand-icon/product-card__expand-icon.css);
+@import url(../blocks/product-card/__youtube-icon/product-card__youtube-icon.css);
 @import url(../blocks/product-card/__title/product-card__title.css);
 @import url(../blocks/product-card/__stars-container/product-card__stars-container.css);
 @import url(../blocks/product-card/__stars-list/product-card__stars-list.css);
@@ -64,8 +64,11 @@
 @import url(../blocks/product-card/__price/product-card__price.css);
 @import url(../blocks/product-card/__price-old/product-card__price-old.css);
 @import url(../blocks/product-card/__availability/product-card__availability.css);
+@import url(../blocks/product-card/__availability-icon/product-card__availability-icon.css);
+@import url(../blocks/product-card/__availability-text/product-card__availability-text.css);
 @import url(../blocks/product-card/__menu/product-card__menu.css);
 @import url(../blocks/product-card/__cart-btn/product-card__cart-btn.css);
 @import url(../blocks/product-card/__menu-container/product-card__menu-container.css);
 @import url(../blocks/product-card/__statistics-btn/product-card__statistics-btn.css);
 @import url(../blocks/product-card/__like-btn/product-card__like-btn.css);
+@import url(../blocks/product-card/__buy-btn/product-card__buy-btn.css);

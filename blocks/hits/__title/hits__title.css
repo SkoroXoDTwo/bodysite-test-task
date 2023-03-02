@@ -6,3 +6,10 @@
   font-weight: 400;
   color: #333333;
 }
+
+@media screen and (max-width: 550px) {
+  .hits__title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
