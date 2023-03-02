@@ -1,0 +1,6 @@
+.product-card__star {
+  width: 20px;
+  height: 19px;
+  background: url(../../../images/icons/star-icon.svg);
+  background-size: contain;
+}

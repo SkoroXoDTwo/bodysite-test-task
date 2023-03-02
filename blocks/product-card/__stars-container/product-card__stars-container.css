@@ -1,0 +1,7 @@
+.product-card__stars-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}

@@ -1,3 +1,11 @@
 .product-card__expand-icon {
-
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../../../images/icons/expand-icon.svg);
+  opacity: 0;
+  transition: opacity 0.2s;
 }

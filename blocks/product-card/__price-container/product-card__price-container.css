@@ -1,0 +1,8 @@
+.product-card__price-container {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}

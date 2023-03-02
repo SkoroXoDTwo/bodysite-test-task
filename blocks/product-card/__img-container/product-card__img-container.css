@@ -1,3 +1,21 @@
 .product-card__img-container {
-
+  position: relative;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 0;
+  border: none;
+  background: none;
 }
+
+.product-card__img-container:hover {
+  cursor: pointer;
+}
+
+.product-card__img-container:hover .product-card__loupe-icon {
+  opacity: 1;
+}
+
+.product-card__img-container:hover .product-card__expand-icon {
+  opacity: 1;
+}
+

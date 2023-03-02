@@ -1,0 +1,17 @@
+.product-card__like-btn {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 20px;
+  background: url(../../../images/icons/like-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 0.2s;
+}
+
+.product-card__like-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

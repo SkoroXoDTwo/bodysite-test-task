@@ -1,0 +1,5 @@
+.product-card__feedback-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
