@@ -1,5 +1,19 @@
+@keyframes anim-init-product-card {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .product-card__container {
   width: 100%;
   display: flex;
   flex-direction: column;
+  animation-duration: 1s;
+  animation-name: anim-init-product-card;
 }
