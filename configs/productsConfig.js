@@ -2,51 +2,51 @@ export const productsConfig = [
   {
     title: "Смартфон Apple Iphone 8 64GB Gold",
     src: "./images/products/product-1.jpg",
-    starsCount: 0,
-    feedbackCount: 0,
+    starsCount: 10,
+    feedbackCount: 10,
     link: "",
-    price: '',
-    oldPrice: '',
+    price: '56 890 ₽',
+    priceOld: '56 990 ₽',
     availability: true
   },
   {
     title: "Смартфон Samsung Galaxy S8 64GB Black",
     src: "./images/products/product-2.jpg",
-    starsCount: 0,
-    feedbackCount: 0,
+    starsCount: 9,
+    feedbackCount: 12,
     link: "",
-    price: '',
-    oldPrice: '',
+    price: '49 990 ₽',
+    priceOld: '54 990 ₽',
     availability: true
   },
   {
     title: "Смартфон Huawei Honor 9 64GB Blue",
     src: "./images/products/product-3.jpg",
-    starsCount: 0,
-    feedbackCount: 0,
+    starsCount: 8,
+    feedbackCount: 8,
     link: "",
-    price: '',
-    oldPrice: '',
-    availability: true
+    price: '26 990 ₽',
+    priceOld: '',
+    availability: false
   },
   {
     title: "Смартфон ASUS ZenFone 4 Max ZC554KL 16GB Black",
     src: "./images/products/product-4.jpg",
-    starsCount: 0,
-    feedbackCount: 0,
+    starsCount: 6,
+    feedbackCount: 5,
     link: "",
-    price: '',
-    oldPrice: '',
+    price: '13 990 ₽',
+    priceOld: '',
     availability: true
   },
   {
     title: "Смартфон Samsung Galaxy S8 128GB Black",
     src: "./images/products/product-2.jpg",
-    starsCount: 0,
-    feedbackCount: 0,
+    starsCount: 3,
+    feedbackCount: 2,
     link: "",
-    price: '',
-    oldPrice: '',
-    availability: true
+    price: '82 000 ₽',
+    priceOld: '84 000 ₽',
+    availability: false
   },
 ]

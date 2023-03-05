@@ -58,7 +58,7 @@
             <h2 class="hits__title">Хиты продаж</h2>
             <div class="slider-menu">
               <button
-                class="slider-menu__btn"
+                class="slider-menu__btn slider-menu__btn_type_disabled"
                 id="hits-slider-btn-previous"
               ></button>
               <button
@@ -71,6 +71,13 @@
           <ul class="hits__list"></ul>
         </section>
       </main>
+
+      <div class="popup">
+        <div class="popup__container">
+          <button class="popup__close-btn"></button>
+          <img class="popup__img" src="./images/products/product-1.jpg">
+        </div>
+      </div>
     </div>
 
     <template id="catalog-card-item-template">
@@ -93,19 +100,14 @@
       <li class="product-card">
         <article class="product-card__container">
           <button class="product-card__img-container">
-            <img
-              class="product-card__img"
-              src="./images/products/product-1.jpg"
-            />
+            <img class="product-card__img" src="" />
             <span class="product-card__label">hit</span>
             <div class="product-card__loupe-icon"></div>
             <div class="product-card__expand-icon"></div>
             <div class="product-card__youtube-icon"></div>
           </button>
           <a class="product-card__link" href="#">
-            <h3 class="product-card__title">
-              Смартфон Apple Iphone 8 64GB Gold
-            </h3>
+            <h3 class="product-card__title"></h3>
             <div class="product-card__stars-container">
               <ul class="product-card__stars-list">
                 <li>
@@ -125,13 +127,13 @@
                 </li>
               </ul>
               <div class="product-card__feedback-container">
-                <span class="product-card__feedback-count">10</span>
+                <span class="product-card__feedback-count"></span>
                 <p class="product-card__feedback-text">отзывов</p>
               </div>
             </div>
             <div class="product-card__price-container">
-              <p class="product-card__price">56 890 р.</p>
-              <p class="product-card__price-old">56 990 р.</p>
+              <p class="product-card__price"></p>
+              <p class="product-card__price-old"></p>
             </div>
             <div class="product-card__availability">
               <div class="product-card__availability-icon"></div>

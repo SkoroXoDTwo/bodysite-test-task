@@ -10,6 +10,7 @@ import { productsConfig } from "../configs/productsConfig.js";
 import CatalogCard from "../components/CatalogCard.js";
 import ProductCard from "../components/ProductCard.js";
 import Slider from "../components/Slider.js";
+import Popup from "../components/Popup.js";
 
 const render = () => {
   renderCatalog();
@@ -22,14 +23,18 @@ const renderCatalog = () => {
   });
 };
 
+const popup = new Popup();
+
 const renderProducts = (products) => {
   hitsList.innerHTML = "";
 
   products.forEach((item) => {
-    const card = new ProductCard(item, template.productCard);
+    const card = new ProductCard(item, template.productCard, popup);
     hitsList.append(card.generateCard());
   });
 };
+
+
 
 new Slider(
   hitsSliderContainer,

@@ -10,7 +10,20 @@ export class Slider {
     this._maxPage = 0;
 
     this._setNumberMaxPage();
+    this._checkDisbledBtnNext();
     this._setEventListener();
+  }
+
+  _checkDisbledBtnNext() {
+    if (this._page == this._maxPage - 1) {
+      this._btnNext.classList.add("slider-menu__btn_type_disabled");
+    }
+  }
+
+  _checkDisbledBtnPrevious() {
+    if (this._page === 0) {
+      this._btnPrevious.classList.add("slider-menu__btn_type_disabled");
+    }
   }
 
   _setEventListener() {
@@ -18,6 +31,9 @@ export class Slider {
       if (this._page < this._maxPage - 1) {
         this._page++;
         this._render(this._getSliderPerviewItems());
+
+        this._btnPrevious.classList.remove("slider-menu__btn_type_disabled");
+        this._checkDisbledBtnNext();
       }
     });
 
@@ -25,6 +41,9 @@ export class Slider {
       if (this._page > 0) {
         this._page--;
         this._render(this._getSliderPerviewItems());
+
+        this._btnNext.classList.remove("slider-menu__btn_type_disabled");
+        this._checkDisbledBtnPrevious();
       }
     });
 
@@ -66,7 +85,6 @@ export class Slider {
       this._page = 0;
       this._render(this._getSliderPerviewItems());
     }
-    console.log(this._maxPage);
   }
 }
 
