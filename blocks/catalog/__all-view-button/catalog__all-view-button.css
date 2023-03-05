@@ -1,0 +1,17 @@
+.catalog__all-view-button {
+  margin: 0;
+  border: none;
+  background: none;
+  padding: 10px 20px;
+  border: 1px solid #2d9cdb;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  transition: opacity 0.2s;
+  align-items: center;
+}
+
+.catalog__all-view-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

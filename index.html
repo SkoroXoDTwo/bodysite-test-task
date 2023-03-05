@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base target="_blank" />
     <title>Bodysite</title>
+
     <link rel="stylesheet" href="./pages/index.css" />
-    <script defer type="module" src="./pages/index.js"></script>
+    <script type="module" src="./pages/index.js"></script>
   </head>
   <body class="body">
     <div class="page">
@@ -17,6 +18,7 @@
               <img
                 class="intro__item-icon"
                 src="./images/icons/delivery-icon.svg"
+                alt="Доставка по России"
               />
               <div class="intro__item-description">
                 <h3 class="intro__item-title">Доставка по России</h3>
@@ -26,7 +28,11 @@
               </div>
             </li>
             <li class="intro__list-item">
-              <img class="intro__item-icon" src="./images/icons/pay-icon.svg" />
+              <img
+                class="intro__item-icon"
+                src="./images/icons/pay-icon.svg"
+                alt="On-line оплата на сайте"
+              />
               <div class="intro__item-description">
                 <h3 class="intro__item-title">On-line оплата на сайте</h3>
                 <p class="intro__item-text">
@@ -38,6 +44,7 @@
               <img
                 class="intro__item-icon"
                 src="./images/icons/sale-icon.svg"
+                alt="Система скидок"
               />
               <div class="intro__item-description">
                 <h3 class="intro__item-title">Система скидок</h3>
@@ -51,6 +58,12 @@
         <section class="catalog">
           <h1 class="catalog__title">Каталог товаров</h1>
           <ul class="catalog__list"></ul>
+          <div class="catalog__all-view-button-container">
+            <button class="catalog__all-view-button" type="button">
+              <p class="catalog__all-view-button-text">Показать ещё</p>
+              <div class="catalog__all-view-button-icon"></div>
+            </button>
+          </div>
         </section>
 
         <section class="hits">
@@ -75,7 +88,7 @@
       <div class="popup">
         <div class="popup__container">
           <button class="popup__close-btn"></button>
-          <img class="popup__img" src="./images/products/product-1.jpg">
+          <img class="popup__img" src="./images/products/product-1.jpg" />
         </div>
       </div>
     </div>

@@ -8,6 +8,9 @@
   color: #333333;
   min-height: 50px;
   transition: color 0.2s;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .catalog__card-title:first-letter {

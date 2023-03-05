@@ -6,9 +6,10 @@ export class Popup {
     this._setEventListener();
   }
 
-  open(src) {
+  open(src, alt) {
     this._popup.classList.add("popup_opened");
     this._img.src = src;
+    this._img.alt = alt;
   }
 
   _close() {

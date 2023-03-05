@@ -1,0 +1,8 @@
+.catalog__all-view-button-icon {
+  width: 10px;
+  height: 10px;
+  background: url(../../../images/icons/arrow-blue-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

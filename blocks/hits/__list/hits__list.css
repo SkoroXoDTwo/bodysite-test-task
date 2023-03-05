@@ -1,6 +1,6 @@
 .hits__list {
-  margin: 0;
   padding: 0;
+  margin: 0;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, 255px);
@@ -14,8 +14,7 @@
   }
 }
 
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 660px) {
   .hits__list {
     grid-template-columns: minmax(255px, 345px);
     grid-template-rows: auto;

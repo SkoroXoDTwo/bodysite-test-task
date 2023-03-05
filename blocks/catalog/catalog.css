@@ -3,3 +3,9 @@
   flex-direction: column;
   padding: 20px 0 40px;
 }
+
+@media screen and (max-width: 550px) {
+  .catalog {
+    padding: 20px 0 15px;
+  }
+}

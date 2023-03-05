@@ -17,12 +17,16 @@ export class Slider {
   _checkDisbledBtnNext() {
     if (this._page == this._maxPage - 1) {
       this._btnNext.classList.add("slider-menu__btn_type_disabled");
+    } else {
+      this._btnNext.classList.remove("slider-menu__btn_type_disabled");
     }
   }
 
   _checkDisbledBtnPrevious() {
     if (this._page === 0) {
       this._btnPrevious.classList.add("slider-menu__btn_type_disabled");
+    } else {
+      this._btnPrevious.classList.remove("slider-menu__btn_type_disabled");
     }
   }
 
@@ -83,6 +87,8 @@ export class Slider {
       this._quantitySlidesPerview = tmpQuantitySlidesPerview;
       this._setMaxPage();
       this._page = 0;
+      this._checkDisbledBtnNext();
+      this._checkDisbledBtnPrevious();
       this._render(this._getSliderPerviewItems());
     }
   }

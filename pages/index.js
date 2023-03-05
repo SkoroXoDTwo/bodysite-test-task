@@ -34,8 +34,6 @@ const renderProducts = (products) => {
   });
 };
 
-
-
 new Slider(
   hitsSliderContainer,
   hitsSliderContainerBtnsId,

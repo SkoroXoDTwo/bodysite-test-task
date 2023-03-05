@@ -11,9 +11,29 @@
 }
 
 .product-card__container {
+  padding: 15px;
   width: 100%;
   display: flex;
   flex-direction: column;
   animation-duration: 1s;
+  outline: 0 solid #f4f4f4;
+  transition: outline 0.2s, box-shadow 0.2s;
   animation-name: anim-init-product-card;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.product-card__container:hover {
+  outline-width: 1px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 550px) {
+  .product-card__container {
+    padding: 20px 20px 15px;
+    outline-width: 1px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+  }
 }

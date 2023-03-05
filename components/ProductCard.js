@@ -59,25 +59,33 @@ export class ProductCard {
         "product-card__availability-text_false"
       );
 
-      this._availabilityIconElement.classList.add('product-card__availability-icon_false')
+      this._availabilityIconElement.classList.add(
+        "product-card__availability-icon_false"
+      );
     }
   }
 
   _setEventListener() {
     this._likeElement = this._element.querySelector(".product-card__like-btn");
-    this._statisticsElement = this._element.querySelector(".product-card__statistics-btn");
-    this._imgContainerElement = this._element.querySelector(".product-card__img-container");
+    this._statisticsElement = this._element.querySelector(
+      ".product-card__statistics-btn"
+    );
+    this._imgContainerElement = this._element.querySelector(
+      ".product-card__img-container"
+    );
 
-    this._likeElement.addEventListener('click', () => {
-      this._likeElement.classList.toggle('product-card__like-btn_active');
+    this._likeElement.addEventListener("click", () => {
+      this._likeElement.classList.toggle("product-card__like-btn_active");
     });
 
-    this._statisticsElement.addEventListener('click', () => {
-      this._statisticsElement.classList.toggle('product-card__statistics-btn_active');
+    this._statisticsElement.addEventListener("click", () => {
+      this._statisticsElement.classList.toggle(
+        "product-card__statistics-btn_active"
+      );
     });
 
-    this._imgContainerElement.addEventListener('click', () => {
-      this._popup.open(this._src);
+    this._imgContainerElement.addEventListener("click", () => {
+      this._popup.open(this._src, this._title);
     });
   }
 
@@ -97,7 +105,6 @@ export class ProductCard {
     this._feedbackCountElement.textContent = this._feedbackCount;
     this._priceElement.textContent = this._price;
     this._linkElement.href = this._link;
-
 
     this._setPriceOld();
     this._setStarsStyle();
