@@ -1,6 +1,9 @@
 # Проект: bodysite test task
 ------
 
+<div align="center">
+  <img src="https://i.ibb.co/RjXfCWq/skoroxodtwo-github-io-bodysite-test-task.png" width="90%">
+</div>
 
 ## 📖 Описание проекта:
 Тестовое задание на позицию Frontend-разработчик в компанию Бодисайт
